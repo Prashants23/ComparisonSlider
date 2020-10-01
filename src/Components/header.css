@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image1,
+.image2 {
+  position: absolute;
+  /* top: 40; */
+  /* margin-top: 100; */
+  /* left: 0; */
+  width: 100%;
+  height: 100%;
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image1 {
+  background-image: url("../assets/images/1234.png");
+}
+
+.image2 {
+  background-image: url("../assets/images/123.jpg");
+  left: 50%;
+  background-attachment: fixed;
+  border-left: 6px solid rgb(88, 158, 199);
+}
